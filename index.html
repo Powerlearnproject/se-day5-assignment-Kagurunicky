@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> AMANI WEBSITE</title>
+        <meta name="viewport" charset="UTF-8>">
+        
+        <style>
+            body {
+                background-color: white;
+                color: black; /* Default text color */
+                font-family: Arial, sans-serif;
+            }
+            
+            h1 {
+                color: navy; /* Dark blue */
+                padding: 10px;
+            }
+    
+            p {
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                color: black;
+            }
+    
+            .form-container {
+                margin: 20px;
+                padding: 20px;
+                width: 900px;
+                border: 2px solid navy; /* Dark blue border */
+                border-radius: 8px;
+                background-color: lightblue; /* Light blue background */
+            }
+    
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            label {
+                margin-top: 10px;
+                color: navy; /* Dark blue */
+                padding: 10px;
+            }
+    
+            input[type="text"],
+            input[type="email"],
+            input[type="password"] {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                border: 1px solid navy; /* Dark blue border */
+                border-radius: 4px;
+            }
+    
+            input[type="radio"],
+            input[type="checkbox"] {
+                margin-right: 10px;
+            }
+    
+            input[type="button"] {
+                margin-top: 15px;
+                padding: 10px;
+                background-color: navy; /* Dark blue */
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            input[type="button"]:hover {
+                background-color: midnightblue; /* Darker blue */
+            }
+    
+            .table-container {
+                margin: 20px;
+                padding: 20px;
+                width: 900px;
+                border: 2px solid navy; /* Dark blue border */
+                border-radius: 8px;
+                
+            }
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+    
+            th, td {
+                border: 1px solid navy; /* Dark blue border */
+                padding: 10px;
+                text-align: left;
+            }
+    
+            th {
+                background-color: navy; /* Dark blue */
+                color: white;
+            }
+    
+        
+        </style>
+    </head>
+    <body>
+        <h1>Providing affordable healthcare</h1>
+        <img src="download.png" alt="Doctor Image" width="1000" height="400" >
+        <p>Amani Hospital is a leading healthcare institution renowned for its commitment to providing comprehensive and compassionate medical care.
+    Located in the heart of the community, the hospital offers a wide range of services, from emergency care to specialized treatments, all delivered by a team of highly skilled professionals. Amani Hospital is dedicated to enhancing patient well-being through state-of-the-art medical technology and a patient-centered approach. The hospital's mission is to deliver quality care in a supportive and nurturing environment, ensuring that every patient receives the attention and expertise they need to achieve optimal health outcomes. 
+    With a focus on excellence and innovation, Amani Hospital stands as a beacon of hope and healing for the community it serves.
+            
+        </p>
+        <br>
+        Fill in the form to get started.
+        <div class="form-container">
+            <form action="Submit" method="post">
+ <label for="name">Firstname :</label>
+ <input type="text" name="Firstname" id="Firstname" placeholder="John" required><br>
+ <label for="name">Sirname :</label>
+ <input type="text" name="Sirname" id="Sirname" placeholder="Kaguru" required><br>
+ <label for="email">Email :</label>
+ <input type="email" name="email" id="email" placeholder="john@gmail.com" required><br.
+ <label for="password">Password :</label>
+ <input type="password" name="password" id="password" required><br>
+ <label for="male">Male :</label>
+ <input type="radio" id="male" name="gender" value="male"><br>
+<label for="female">Female :</label>
+<input type="radio" id="female" name="gender" value="female"><br>
+<label for="other">Other :</label>
+<input type="radio" id="other" name="gender" value="other"><br>
+    What Type of Service do u require Today?<br>
+<label for="Consultation">Consultation :</label>
+<input type="checkbox" id="Consultation" name="Medical Service" value="Consultation"><br> 
+<label for="Radiology">Radiology :</label>
+<input type="checkbox" id="Radiology" name="Medical Service" value="Radiology"><br>
+<label for="Lab">Lab Services: </label>
+<input type="checkbox" id="Lab" name="Medical Service" value="Lab"><br>
+<label for="In-patient">In-Patient</label>
+<input type="checkbox" id="In-patient" name="Medical Service" value="In-patient"><br>
+<input type="button" name="Submit" id="Submit" value="Submit">
+         </form>
+        </div>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <td>Nicoletah Wambui</td>
+                    <td>nicole@gmail.com</td>
+                    <td>+254773456890</td>
+                </tr>
+                <tr>
+                    <td>John Mungai</td>
+                    <td>john23@outlook.com</td>
+                    <td>+254773467890</td>
+                </tr>
+                <tr>
+                    <td>Isaaiah Kimani</td>
+                    <td>kimani@gmail.com</td>
+                    <td>+253773456890</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <a href="google.com">Google</a>
+    </body>
+</html>
